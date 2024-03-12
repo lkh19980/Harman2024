@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs
+/Work1/test/.vs/test
+/Work1/test/test/x64/Debug
+/Work1/test/test/x64/Release/test.tlog
+/Work1/test/test/x64/Release
+/Work1/test/test/Debug
