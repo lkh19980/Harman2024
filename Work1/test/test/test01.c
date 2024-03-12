@@ -13,23 +13,25 @@ int test01(void)
 	char* str[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 	//string pointer array
 	int n = 1;
+	char c;
 	while (n)
 	{
 		printf(">");
-		char c = getch();
+		c = getch();
 		//int m = c - 0x30;
-		if (0x30 <= c <= 0x39)
+		if (0x30 <= c && c <= 0x39) // 동시 연산자 사용 불가능
 		{
 			printf("%c : %s\n", c, str[c - '0']);
 		}
-		else if (c | 0x20 == 'q')
+		///*
+		else if ((c | 0x20) == 'q')//조건문 잘 쓰기 앞부분 비트 연산 후 0이 아니여서 실행
 		{
-			printf("q");
-			//n = 0;
+			//printf("q");
+			n = 0;
 		}
 		else 
 			continue;
-
+		//*/
 		//if (c == '1') printf("%c : One\n", c);
 		//else if (c == '2') printf("%c : Two\n", c);
 		//else if (c == '3') printf("%c : Three\n", c);
@@ -310,6 +312,6 @@ void test02(int a) //문자열과 문자 배열
 
 main()
 {
-	test01();
-	//test02(1);
+	//test01();
+	test02(1);
 }
