@@ -56,3 +56,5 @@ dkms.conf
 /Work1/test/test/x64/Release/test.tlog
 /Work1/test/test/x64/Release
 /Work1/test/test/Debug
+/test02/.vs/test02
+/test02/test02/x64/Debug/test02.tlog
