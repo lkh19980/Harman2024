@@ -1,8 +1,9 @@
 # Harman2024
 Harman Semicon Academy
 
-#'#'은 확대
+# '#'은 확대
 ```
+//```는 코드 구문
 /*
  * 7seg-btn.c
  *
