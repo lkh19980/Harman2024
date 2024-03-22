@@ -35,31 +35,28 @@ void test01(void)
 		switch (a)
 		{
 		case 7:
-			printf("|%4d /\t 0x%02x /\t   BELL||\t", a, a, a);
+			printf("|%4d /\t %4x /\t   BELL||\t", a, a, a);
 			break;
 		case 8:
-			printf("|%4d /\t 0x%02x /\t     BS||\t", a, a, a);
+			printf("|%4d /\t %4x /\t     BS||\t", a, a, a);
 			break;
 		case 9:
-			printf("|%4d /\t 0x%02x /\t     HT||\t", a, a, a);
+			printf("|%4d /\t %x /\t   ||\t", a, a, a);
 			break;
 		case 10:
-			printf("|%4d /\t 0x%02x /\t     LF||\t", a, a, a);
+			printf("|%4d /\t %4x /\t   ||\t", a, a, a);
 			break;
 		case 13:
-			printf("|%4d /\t 0x%02x /\t     CR||\t", a, a, a);
-			break;
-		case 27:
-			printf("|%4d /\t 0x%02x /\t    ESC||\t", a, a, a);
+			printf("|%4d /\t %4x /\t   ||\t", a, a, a);
 			break;
 		default:
-			printf("|%4d /\t 0x%02x /\t %6c||\t", a, a, a);
+			printf("|%4d /\t %4x /\t %6c||\t", a, a, a);
 		}
 		
 		
-		printf("|%4d /\t 0x%x /\t %c||\t", b, b, b);
-		printf("|%4d /\t 0x%x /\t %c||\t", c, c, c);
-		printf("|%4d /\t 0x%x /\t %c||\n", d, d, d);
+		printf("|%4d /\t %4x /\t %c||\t", b, b, b);
+		printf("|%4d /\t %4x /\t %c||\t", c, c, c);
+		printf("|%4d /\t %4x /\t %c||\n", d, d, d);
 		a++, b++, c++, d++;
 	}
 }
@@ -257,11 +254,7 @@ void main(void)
 		printf("\n\n\n");
 		printf("0. test00\n");
 		printf("1. test01\n");
-		printf("2. test02\n");
-		printf("3. test03\n");
-		printf("4. test04\n");
-		printf("5. test05\n");
-		printf("6. test06\n");
+		printf("1. test02\n");
 		printf("10. 종료\n");
 		printf("-----------------\n 선택 >");
 		scanf("%d", &n);

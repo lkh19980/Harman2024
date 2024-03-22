@@ -1,0 +1,46 @@
+﻿  test02.c
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(27,7): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(309,10): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'char *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(309,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) char *' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(314,10): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(314,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(321,11): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(321,11): warning C4313: 'printf': 서식 문자열의 '%x'이(가) int *' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(347,75): warning C4311: '형식 캐스트': 'char [100]'에서 'unsigned int'(으)로 포인터가 잘립니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(347,9): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(347,9): warning C4313: 'printf': 서식 문자열의 '%x'이(가) char *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(349,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(352,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(373,27): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(373,27): warning C4313: 'printf': 서식 문자열의 '%x'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(390,10): warning C4477: 'printf' : 서식 문자열 '%08x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(390,10): warning C4313: 'printf': 서식 문자열의 '%x'이(가) char *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(384,18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(386,18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(406,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(406,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(402,9): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(426,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(426,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(427,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(427,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(421,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(422,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(428,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(429,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(441,64): warning C4013: 'length'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(440,45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(450,70): warning C4013: 'Compare'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(447,45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(449,45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(463,23): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(475,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(498,21): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(498,37): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(509,20): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(509,36): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(511,20): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(511,36): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(491,6): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\test02\test02\test02.c(573,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test02.vcxproj -> C:\Users\SYSTEM-00\source\repos\Work\test02\x64\Debug\test02.exe

@@ -1,0 +1,26 @@
+﻿  source.c
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(38,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(38,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(41,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(41,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(44,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(44,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(47,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(47,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(50,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(50,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(53,51): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(53,51): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 3개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(72,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(74,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(87,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(116,15): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(116,15): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(116,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(125,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(170,21): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(178,21): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(159,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\SYSTEM-00\source\repos\Work\Homework1\Homework1\source.c(267,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Homework1.vcxproj -> C:\Users\SYSTEM-00\source\repos\Work\Homework1\x64\Debug\Homework1.exe
