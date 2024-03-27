@@ -11,6 +11,10 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "7seg-btn", "7seg-btn\7seg-b
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "7seg-btn-example", "7seg-btn-example\7seg-btn-example.cproj", "{64616FAE-30B6-4148-B441-66FD9E319084}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test03-intr", "test03-intr\test03-intr.cproj", "{4BA44553-7EA5-4F17-9B39-60872381D2E0}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test03-intr-timer", "test03-intr-timer\test03-intr-timer.cproj", "{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -33,6 +37,14 @@ Global
 		{64616FAE-30B6-4148-B441-66FD9E319084}.Debug|AVR.Build.0 = Debug|AVR
 		{64616FAE-30B6-4148-B441-66FD9E319084}.Release|AVR.ActiveCfg = Release|AVR
 		{64616FAE-30B6-4148-B441-66FD9E319084}.Release|AVR.Build.0 = Release|AVR
+		{4BA44553-7EA5-4F17-9B39-60872381D2E0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4BA44553-7EA5-4F17-9B39-60872381D2E0}.Debug|AVR.Build.0 = Debug|AVR
+		{4BA44553-7EA5-4F17-9B39-60872381D2E0}.Release|AVR.ActiveCfg = Release|AVR
+		{4BA44553-7EA5-4F17-9B39-60872381D2E0}.Release|AVR.Build.0 = Release|AVR
+		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Debug|AVR.Build.0 = Debug|AVR
+		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Release|AVR.ActiveCfg = Release|AVR
+		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
