@@ -48,8 +48,8 @@ void FND_4(char *inf) // segment Image 배열
 char* Disp(unsigned long num)//10진수 정수 ==> 16진수 문자열로 변환 : 65535 ==> 0xFFFF, 56506 ==> 0xDCBA
 {								//16비트 세그문트 이미지 배열
 	int n1 = num%0x10;			//A 1		:문자가 아닌 숫자
-	int n2 = (num/0x10)%16;		//B 16		:
-	int n3 = (num/0x100)%16;	//C 256
+	int n2 = (num/0x10)%0x10;	//B 16		:
+	int n3 = (num/0x100)%0x10;	//C 256
 	int n4 = num/0x1000;		//D 4096	
 	if(!(num/0x1000))
 	{
@@ -88,6 +88,7 @@ int main(void)
 	// Pin assign : PDx - Segment img, PD0~3 - module select
 	DDRD = 0xff;
 	DDRE |= 0x0f;
+	DDRA |= 0x0f;
 	// Interrupt 사용 : INT4 ~ INT6 (Ext Int)
 	// Pin assign : PE4 ~ PE6
 	// 인터럽트 설정
@@ -109,15 +110,27 @@ int main(void)
 				t=0; 
 				break;
 			case 1: // counter start
+				
 				t--;
+				if (t==-1) opmode = 0;
 				if(t == 0) opmode=4;
 				break;
 			case 2: // count stop
 				break;
 			case 3:
 				t++;
+				break;
 			case 4:
 			//LED
+			PORTA = 0x0f;
+			_delay_ms(15);
+			PORTA = 0x00;
+			_delay_ms(15);
+			PORTA = 0x0f;
+			_delay_ms(15);
+			PORTA = 0x00;
+			_delay_ms(15);
+			
 			break;
 			default:
 				break;
