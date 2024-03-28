@@ -1,10 +1,9 @@
 /*
- * test03-intr-timer.c
+ * test03-intr.c
  *
- * Created: 2024-03-27 오후 3:09:50
+ * Created: 2024-03-27 오후 12:25:30
  * Author : SYSTEM-00
  */ 
-
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -47,17 +46,17 @@ void FND_4(char *inf) // segment Image 배열
 //정적변수 영역에 부여
 char* Disp(unsigned long num)//10진수 정수 ==> 16진수 문자열로 변환 : 65535 ==> 0xFFFF, 56506 ==> 0xDCBA
 {								//16비트 세그문트 이미지 배열
-	int n1 = num%10;			//A 1		:문자가 아닌 숫자
-	int n2 = (num/10)%10;	//B 16		:
-	int n3 = (num/100)%10;	//C 256
-	int n4 = num/1000;		//D 4096	
-	if(!(num/1000))
+	int n1 = num%0x10;			//A 1		:문자가 아닌 숫자
+	int n2 = (num/0x10)%16;		//B 16		:
+	int n3 = (num/0x100)%16;	//C 256
+	int n4 = num/0x1000;		//D 4096	
+	if(!(num/0x1000))
 	{
 		n4=17;
-		if(!(num/100))
+		if(!(num/0x100))
 		{
 			n3=17;
-			if(!(num/10))n2=17;
+			if(!(num/0x10))n2=17;
 		}
 	}
 	arr[0] = digit[n1];//char 1byte cast() LED문자로 표현
@@ -67,7 +66,6 @@ char* Disp(unsigned long num)//10진수 정수 ==> 16진수 문자열로 변환 
 	//+, - 빠름
 	//* 실수 연산 여러 클럭 사용
 	//'/' 연산 여러 클럭 사용
-	if(opmode == 4) return;
 	FND_4(arr);
 	//return arr;
 	
@@ -89,7 +87,6 @@ int main(void)
 	// Pin assign : PDx - Segment img, PD0~3 - module select
 	DDRD = 0xff;
 	DDRE |= 0x0f;
-	DDRA |= 0x0f;
 	// Interrupt 사용 : INT4 ~ INT6 (Ext Int)
 	// Pin assign : PE4 ~ PE6
 	// 인터럽트 설정
@@ -111,67 +108,32 @@ int main(void)
 				t=0; 
 				break;
 			case 1: // counter start
-				
-				t--;
-				if (t==-1) opmode = 0;
-				if(t == 0) opmode=4;
+				t++;
 				break;
 			case 2: // count stop
 				break;
-			case 3:
-				t++;
-				if(t>=10000)opmode = 0;
-				break;
-			case 4:
-			//LED
-			PORTA = 0x0f;
-			_delay_ms(50);
-			PORTA = 0x00;
-			_delay_ms(50);
-			PORTA = 0x0f;
-			_delay_ms(50);
-			PORTA = 0x00;
-			_delay_ms(50);
-			/*
-			Disp(t);
-			_delay_ms(15);
-			Disp(t);
-			_delay_ms(15);
-			Disp(t);
-			_delay_ms(15);
-			Disp(t);
-			_delay_ms(15);
-			*/
-			break;
 			default:
 				break;
 		}
 		//Disp(65535);
 		Disp(t);
-		
 		//Disp(t++);
-		// LED방향, 
     }
 }
 
 ISR(INT4_vect)
 {
-	opmode++;//
-	if(opmode == 5)opmode =0;
-	if(opmode>=OPMODE_MAX)opmode = 1; //1,2
-	
+	opmode++;
+	if(opmode>=OPMODE_MAX)opmode = 0;
 }
 ISR(INT5_vect)
 {
 	//PORTD = digit[0];
 	//PORTE = 0x0c0;
 	state++;
-	if(state >= 2) state = 0;
-	opmode = state+2;
-	//opmode++;//
-	//if(opmode>=4)opmode = 2;
+	if(state >= STATE_MAX) state = 0;
 }
 ISR(INT6_vect)
 {
-	opmode = 0;
+	
 }

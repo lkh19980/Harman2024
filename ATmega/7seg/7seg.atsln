@@ -15,6 +15,10 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test03-intr", "test03-intr\
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test03-intr-timer", "test03-intr-timer\test03-intr-timer.cproj", "{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test04-Timer", "test04-Timer\test04-Timer.cproj", "{D6D58F8D-4616-46A7-89EB-605AD11488AA}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "test04-Timer-kitchen", "test04-Timer-kitchen\test04-Timer-kitchen.cproj", "{3ECCD104-E1FE-475F-8E2C-2E4FC2F3A91E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -45,6 +49,14 @@ Global
 		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Debug|AVR.Build.0 = Debug|AVR
 		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Release|AVR.ActiveCfg = Release|AVR
 		{EE8A5F1E-BFFC-41DE-A0D6-2BB467B63BBF}.Release|AVR.Build.0 = Release|AVR
+		{D6D58F8D-4616-46A7-89EB-605AD11488AA}.Debug|AVR.ActiveCfg = Debug|AVR
+		{D6D58F8D-4616-46A7-89EB-605AD11488AA}.Debug|AVR.Build.0 = Debug|AVR
+		{D6D58F8D-4616-46A7-89EB-605AD11488AA}.Release|AVR.ActiveCfg = Release|AVR
+		{D6D58F8D-4616-46A7-89EB-605AD11488AA}.Release|AVR.Build.0 = Release|AVR
+		{3ECCD104-E1FE-475F-8E2C-2E4FC2F3A91E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{3ECCD104-E1FE-475F-8E2C-2E4FC2F3A91E}.Debug|AVR.Build.0 = Debug|AVR
+		{3ECCD104-E1FE-475F-8E2C-2E4FC2F3A91E}.Release|AVR.ActiveCfg = Release|AVR
+		{3ECCD104-E1FE-475F-8E2C-2E4FC2F3A91E}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
